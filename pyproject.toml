@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "routism-cli"
 version = "0.2.0"
-description = "Standalone CLI/TUI operator for Routism (clones and runs Dreamstick9/Routism)"
+description = "Standalone CLI/TUI operator for Routism (clones and runs Meard-AI/Routism)"
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"
@@ -22,7 +22,7 @@ routism-cli = "routism_cli.main:main"
 
 [project.urls]
 Homepage = "https://github.com/Meard-AI/routism-cli"
-Product = "https://github.com/Dreamstick9/Routism"
+Product = "https://github.com/Meard-AI/Routism"
 
 [tool.setuptools.packages.find]
 include = ["routism_cli*"]

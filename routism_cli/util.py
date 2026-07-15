@@ -222,8 +222,8 @@ def find_repo_root(start: Optional[Path] = None) -> Path:
     raise CliError(
         "Could not find Routism repo root.\n"
         f"  Looked for `{COMPOSE_FILE}` and `{ORCH_MARKER}` walking up from {cur}.\n"
-        "  cd into a GitHub clone of Dreamstick9/Routism, or set ROUTISM_HOME.\n"
-        "  https://github.com/Dreamstick9/Routism"
+        "  cd into a GitHub clone of Meard-AI/Routism, or set ROUTISM_HOME.\n"
+        "  https://github.com/Meard-AI/Routism"
     )
 
 
