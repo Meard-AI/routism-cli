@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "routism-cli"
+version = "0.2.0"
+description = "Standalone CLI/TUI operator for Routism (clones and runs Dreamstick9/Routism)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Dreamstick9" }]
+keywords = ["routism", "cli", "tui", "ollama", "docker"]
+dependencies = []
+
+[project.optional-dependencies]
+yaml = ["PyYAML>=6"]
+
+[project.scripts]
+routism = "routism_cli.main:main"
+routism-cli = "routism_cli.main:main"
+
+[project.urls]
+Homepage = "https://github.com/Dreamstick9/routism-cli"
+Product = "https://github.com/Dreamstick9/Routism"
+
+[tool.setuptools.packages.find]
+include = ["routism_cli*"]
