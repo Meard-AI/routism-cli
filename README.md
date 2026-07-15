@@ -1,13 +1,13 @@
 # routism-cli
 
-**Standalone** command-line / terminal UI operator for [Routism](https://github.com/Dreamstick9/Routism).
+**Standalone** command-line / terminal UI operator for [Routism](https://github.com/Meard-AI/Routism).
 
 This repo is **not** the Routism monorepo and **not** a desktop/Tauri app.  
 It clones and drives the official product from GitHub so you can install, start, and operate the stack entirely from a terminal.
 
 | | |
 |--|--|
-| Product (stack) | https://github.com/Dreamstick9/Routism |
+| Product (stack) | https://github.com/Meard-AI/Routism |
 | This tool | CLI + TUI only |
 | License | MIT |
 
@@ -37,7 +37,7 @@ PYTHONPATH=. python3 -m routism_cli --help
 ## First-time product install + setup
 
 ```bash
-routism install           # clones Dreamstick9/Routism → ~/Routism (or $ROUTISM_HOME)
+routism install           # clones Meard-AI/Routism → ~/Routism (or $ROUTISM_HOME)
 routism setup -y          # Ollama models + docker compose up
 routism tui               # interactive terminal menu
 ```

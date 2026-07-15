@@ -12,7 +12,7 @@ from .util import COMPOSE_FILE, ORCH_MARKER, CliError, info, ok
 
 PRODUCT_REPO_URL = os.environ.get(
     "ROUTISM_PRODUCT_GIT",
-    "https://github.com/Dreamstick9/Routism.git",
+    "https://github.com/Meard-AI/Routism.git",
 )
 
 
@@ -34,7 +34,7 @@ def ensure_product_repo(
     dry_run: bool = False,
     quiet: bool = False,
 ) -> Path:
-    """Ensure a local checkout of Dreamstick9/Routism exists; clone if missing."""
+    """Ensure a local checkout of Meard-AI/Routism exists; clone if missing."""
     target = (dest or default_product_dir()).expanduser().resolve()
     repo_url = (url or PRODUCT_REPO_URL).strip()
 

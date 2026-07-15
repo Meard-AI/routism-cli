@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Install the standalone `routism` CLI/TUI on PATH (no pip required).
-# This package does NOT ship the product stack; first setup clones Dreamstick9/Routism.
+# This package does NOT ship the product stack; first setup clones Meard-AI/Routism.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
@@ -26,7 +26,7 @@ if ! echo ":$PATH:" | grep -q ":$DEST_DIR:"; then
   echo
 fi
 echo "Then:"
-echo "  routism install     # clone https://github.com/Dreamstick9/Routism → ~/Routism"
+echo "  routism install     # clone https://github.com/Meard-AI/Routism → ~/Routism"
 echo "  routism setup -y    # Docker + Ollama + engine models + compose up"
 echo "  routism tui         # terminal menu UI"
 echo

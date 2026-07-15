@@ -41,7 +41,7 @@ def _build_parser() -> argparse.ArgumentParser:
         prog="routism",
         description=(
             "routism-cli — standalone terminal operator for Routism.\n"
-            "Clones and runs the product from https://github.com/Dreamstick9/Routism\n"
+            "Clones and runs the product from https://github.com/Meard-AI/Routism\n"
             "This is not a desktop GUI. Bare `routism` runs full setup."
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -78,7 +78,7 @@ examples:
         "--url",
         dest="install_url",
         default=None,
-        help="Git URL override (default: official Dreamstick9/Routism)",
+        help="Git URL override (default: official Meard-AI/Routism)",
     )
     inst.add_argument("--dry-run", action="store_true")
 
