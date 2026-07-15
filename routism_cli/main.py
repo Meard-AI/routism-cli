@@ -48,7 +48,7 @@ def _build_parser() -> argparse.ArgumentParser:
         epilog="""
 examples:
   # install this CLI (once):
-  git clone https://github.com/Dreamstick9/routism-cli.git && cd routism-cli && ./install.sh
+  git clone https://github.com/Meard-AI/routism-cli.git && cd routism-cli && ./install.sh
 
   routism install             # clone product → ~/Routism
   routism setup -y            # models + docker compose

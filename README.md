@@ -21,7 +21,7 @@ It clones and drives the official product from GitHub so you can install, start,
 ## Install this CLI
 
 ```bash
-git clone https://github.com/Dreamstick9/routism-cli.git
+git clone https://github.com/Meard-AI/routism-cli.git
 cd routism-cli
 ./install.sh          # puts `routism` on ~/.local/bin
 # or:  pip install -e .

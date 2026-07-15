@@ -21,7 +21,7 @@ routism = "routism_cli.main:main"
 routism-cli = "routism_cli.main:main"
 
 [project.urls]
-Homepage = "https://github.com/Dreamstick9/routism-cli"
+Homepage = "https://github.com/Meard-AI/routism-cli"
 Product = "https://github.com/Dreamstick9/Routism"
 
 [tool.setuptools.packages.find]
